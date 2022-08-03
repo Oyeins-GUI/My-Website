@@ -9,14 +9,14 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: smart-claimant
-            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            cost: 1390
-            path: contracts/smart-claimant.clar
-            anchor-block-only: true
-        - contract-publish:
             contract-name: timelocked-wallet
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             cost: 16800
             path: contracts/timelocked-wallet.clar
+            anchor-block-only: true
+        - contract-publish:
+            contract-name: smart-claimant
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 1390
+            path: contracts/smart-claimant.clar
             anchor-block-only: true
